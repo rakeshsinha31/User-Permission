@@ -153,10 +153,10 @@ class ApiController extends Controller {
                             ->build();
     
             // Verify the JWT from the Authorization Header.
-            print_r(jwtVerifier);
             $jwt = $jwtVerifier->verify($authData);
-        } catch (\Exception $e) {
-    
+            dump($jwt);
+
+        } catch (Exception $e) {
             // We encountered an error, return a 401.
             return false;
         }
