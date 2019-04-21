@@ -18,10 +18,10 @@
 	"public": false,
 	"requests": [
 		{
+			"url": "http://127.0.0.1:8000/group/delete/4",
 			"id": "116b29a2-a6ee-ff09-74c9-0e78a09094be",
 			"headers": "",
 			"headerData": [],
-			"url": "http://127.0.0.1:8000/group/delete/4",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
@@ -72,10 +72,10 @@
 			"rawModeData": "{\n\t\"name\": \"user_five\"\n}"
 		},
 		{
+			"url": "http://127.0.0.1:8000/groups/",
 			"id": "1eb8df3f-935c-7b72-887c-2878bfca64d6",
 			"headers": "",
 			"headerData": [],
-			"url": "http://127.0.0.1:8000/groups/",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
@@ -95,10 +95,10 @@
 			"helperAttributes": {}
 		},
 		{
+			"url": "http://127.0.0.1:8000/user/delete/1",
 			"id": "28874333-5c06-b658-3193-162bfd8a2435",
 			"headers": "",
 			"headerData": [],
-			"url": "http://127.0.0.1:8000/user/delete/1",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
@@ -118,6 +118,7 @@
 			"helperAttributes": {}
 		},
 		{
+			"url": "http://127.0.0.1:8000/createuser/",
 			"id": "56bd782d-d280-b1d8-33b9-9b11f9cc572b",
 			"headers": "//Authorization: 00bdO7MhKvH-MAreuSq6F999rsnjFOGuMlegHXJ0kg\nContent-Type: application/json\n",
 			"headerData": [
@@ -134,7 +135,6 @@
 					"enabled": true
 				}
 			],
-			"url": "http://127.0.0.1:8000/createuser/",
 			"queryParams": [],
 			"pathVariables": {},
 			"pathVariableData": [],
