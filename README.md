@@ -24,7 +24,8 @@ Migrations - Database migration files.
 Reposiroty - Contails code to interacts with a DB. There are default methods (commented)
 created by symfony. 
 ```
-Documents
+
+### Documents
 
 Data_mode_ERD.pdf - Contains the data model and Database ER diagram.
 openapi_doc.yaml - Detailed API docoment. Each enpoints are described with Request & Response body. 
