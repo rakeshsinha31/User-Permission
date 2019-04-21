@@ -25,10 +25,10 @@ Reposiroty - Contails code to interacts with a DB. There are default methods (co
 created by symfony. 
 ```
 Documents
-```
+
 Data_mode_ERD.pdf - Contains the data model and Database ER diagram.
 openapi_doc.yaml - Detailed API docoment. Each enpoints are described with Request & Response body. 
-Open the file in swagger (https://editor.swagger.io/) for detailed view.
+Open the file in swagger https://editor.swagger.io/ for detailed view.
 
 
 ### Testing
